@@ -106,13 +106,9 @@ public class game{
                 int near = 0;
 
                 for (int rowOffset = -1; rowOffset <= 1; rowOffset++) {
-                for (int colOffset = -1; colOffset <= 1; colOffset++) {
-                    int neighborRow = i + rowOffset;
-                    int neighborCol = j + colOffset;
+                for (int colOffset = -1; colOffset <= 1; colOffset++) {int neighborRow = i + rowOffset; int neighborCol = j + colOffset;
 
-                    // Bounds check: Make sure th is actually inside 
                     if (neighborRow >= 0 && neighborRow < length && neighborCol >= 0 && neighborCol < length) {
-                        // Check if the neighboring cell contains a mine
                         if (grid.getCell(neighborRow, neighborCol).getIsMine()) {
                             near++;
                         }
