@@ -81,7 +81,6 @@ public class game{
                     chosen.setIsRevealed();
                 }
             }
-            
             if(checkWin()){
                 playing = false; 
                 System.out.println("Congrats you found all the mines!");
@@ -89,7 +88,6 @@ public class game{
 
             grid.printBoard();
         }
-
     }
 
     public boolean checkWin(){
@@ -97,7 +95,6 @@ public class game{
     }
 
     public void setMinesNearBy(){
-
         for(int i = 0; i < length; i++){
             for(int j = 0; j < length; j++){
                 cell chosen = grid.getCell(i,j);
