@@ -11,6 +11,14 @@ public class cell{
     public void setIsMine(){
         isMine = true;
     }
+    
+    public void setNear(int i){
+        minesNear = i;
+    }
+
+    public void setIsFlagged(){
+        isFlagged = true; 
+    }
 
     public boolean getIsMine(){
         return isMine;
@@ -18,14 +26,6 @@ public class cell{
 
     public void setIsRevealed(){
         isRevealed = true;
-    }
-
-    public void setNear(int i){
-        minesNear = i;
-    }
-
-    public void setIsFlagged(){
-        isFlagged = true; 
     }
 
     @Override
