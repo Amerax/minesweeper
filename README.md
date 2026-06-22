@@ -7,6 +7,7 @@ This is a game that is terminal based and I wanted to make it because I always e
 Minesweeper in general is also a pretty historic game for microsoft and windows as it was one of the first games on it, and that motivated me to do this as well. 
 
 The game can be simply played by downloaded the .exe file as I have compiled it into a binary. When you run the .exe it simply starts playing and opens a terminal for you. 
+To run literally just go to releases and download the .exe and double click on it to open it and there will be a terminal window popping up. 
 
 Demo Image:
 
